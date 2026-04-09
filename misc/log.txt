@@ -1,0 +1,55 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-AQP3CCV
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Mixed
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : jmidhcp.com
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (17) I219-LM
+   Physical Address. . . . . . . . . : D0-46-0C-A6-27-24
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 4E-23-38-BF-B0-49
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 42-23-38-BF-B0-49
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : jmidhcp.com
+   Description . . . . . . . . . . . : Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter
+   Physical Address. . . . . . . . . : 4C-23-38-BF-B0-49
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::f3c6:98b0:1047:33b7%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.68.0.242(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Lease Obtained. . . . . . . . . . : Thursday, February 19, 2026 1:56:56 PM
+   Lease Expires . . . . . . . . . . : Thursday, February 19, 2026 10:02:10 PM
+   Default Gateway . . . . . . . . . : 10.68.0.1
+   DHCP Server . . . . . . . . . . . : 1.1.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 105653048
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2F-73-BE-98-D0-46-0C-A6-27-24
+   DNS Servers . . . . . . . . . . . : 10.2.0.10
+   NetBIOS over Tcpip. . . . . . . . : Enabled
