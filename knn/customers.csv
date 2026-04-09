@@ -1,1 +1,10 @@
-
+Customer,Age,Income,Gender,Region,Buys
+C1,25,30000,Male,Urban,No
+C2,35,40000,Female,Rural,Yes
+C3,45,50000,Male,Urban,Yes
+C4,20,20000,Female,Urban,No
+C5,30,35000,Female,Rural,Yes
+C6,40,28000,Male,Urban,Yes
+C7,50,48000,Female,Rural,No
+C8,28,40000,Male,Urban,Yes
+C9,42,50000,Male,Urban,Yes

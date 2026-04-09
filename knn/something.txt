@@ -1,0 +1,56 @@
+import pandas as pd
+import numpy as np
+
+# Step 1: Load dataset
+df = pd.read_csv("data.csv")
+
+# Step 2: Encode categorical data
+df['Gender'] = df['Gender'].map({'Male': 0, 'Female': 1})
+df['Region'] = df['Region'].map({'Urban': 0, 'Rural': 1})
+df['Buys Product'] = df['Buys Product'].map({'No': 0, 'Yes': 1})
+
+# Step 3: Select features and target
+X = df[['Age', 'Income', 'Gender', 'Region']].values
+y = df['Buys Product'].values
+
+# Step 4: Normalize data (important!)
+X = (X - X.min(axis=0)) / (X.max(axis=0) - X.min(axis=0))
+
+# Step 5: Distance function (vectorized)
+def euclidean_distance(train, test):
+    return np.sqrt(np.sum((train - test) ** 2, axis=1))
+
+
+# Step 6: KNN function
+def knn(X, y, test_point, k):
+    # Normalize test point same way
+    test_point = (test_point - X.min(axis=0)) / (X.max(axis=0) - X.min(axis=0))
+
+    distances = euclidean_distance(X, test_point)
+
+    # Get indices of K nearest neighbors
+    k_indices = np.argsort(distances)[:k]
+
+    # Get labels
+    k_nearest_labels = y[k_indices]
+
+    # Majority vote
+    counts = np.bincount(k_nearest_labels)
+    return np.argmax(counts)
+
+
+# Step 7: Test example
+test = np.array([32, 38000, 1, 1])  # Female, Rural
+
+result = knn(X, y, test, 3)
+
+print("Prediction:", "Yes" if result == 1 else "No")
+
+🔷 Final Flow (Very Important 🔥)
+Normalize test point
+Calculate distances
+Sort distances → np.argsort()
+Pick top K neighbors
+Get their labels → y[k_indices]
+Count votes → np.bincount()
+Choose majority → np.argmax()
